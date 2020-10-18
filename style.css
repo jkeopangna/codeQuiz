@@ -1,3 +1,42 @@
 body {
-    background-color: darkgray;
+    background: rgb(226, 149, 5);
+    text-align: center;
+    margin-top: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+#question-container {
+    text-align: center;
+    background-color: white;
+    border: solid black 2px;
+    padding: 20px;
+}
+
+.btn-grid {
+    display: grid;
+    gap: 10px;
+}
+
+#btn {
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+#startBtn {
+    align-content: center;
+    background: black;
+    border: black;
+}
+
+.hide {
+    display: none;
+}
+
+h1  {
+    font-weight: bolder;
+}
+
+p {
+font-size: 20px;
+}
+
