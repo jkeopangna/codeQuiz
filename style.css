@@ -12,6 +12,15 @@ body {
     padding: 20px;
 }
 
+#timer {
+    text-align: right;
+    margin-top: auto 0px;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
 .btn-grid {
     display: grid;
     gap: 10px;

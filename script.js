@@ -4,6 +4,10 @@ var startBtn = document.getElementById('startBtn')
 
 var questionContainer = document.getElementById('question-container')
 
+var timer = 1;
+let time = timer * 60;
+var countdown = document.getElementById('timer');
+
 var showQuestion = document.getElementById('question')
 
 var showAnswers = document.getElementById('btn')
@@ -15,6 +19,7 @@ var questions = ["How many Scream movies have been made?", "Who is the man behin
 
 
 startBtn.addEventListener('click', startGame)
+setInterval(startTimer, 1000);
 showAnswers.addEventListener('click', function (){
     questions++
     question()
@@ -25,10 +30,20 @@ function startGame() {
     section.classList.add('hide');
     questionContainer.classList.remove('hide')
     Question()
+    startTimer()
 }
 
-function nextQuestion(){
-    
+function startTimer() {
+    var minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+    seconds = seconds < 10 ? '0' + seconds : seconds;
+    countdown.innerHTML = minutes + seconds
+    time--;
+    time = time < 0 ? 0 : time;
+    if (time === 0 ) {
+        alert("Time is up!")
+        startGame()
+    }
 }
 
 function Question(){
@@ -37,5 +52,10 @@ function Question(){
         showAnswers.innerText = answers1.Math.floor(Math.random())
     }
     }
+
+    
+function nextQuestion(){
+    
+}
 
 
