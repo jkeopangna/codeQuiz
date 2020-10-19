@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="container">
+    <section id="section">
+        <h1>Halloweenie Quiz</h1>
+    <p>Test your Boo's and Ghouls with this timed quiz!</p>
+    <button type="button" class="btn btn-primary" id='startBtn'>Start Quiz</button>
+    </section>
     <div id='question-container' class='hide'>
-        <h2 id="timer"></h2>
+        <h2 id="timer">60</h2>
         <div id='question'>Question</div>
         <div id='answer-btns' class='btn-grid'>
             <button id="btn">Answer1</button>
@@ -18,11 +23,14 @@
             <button id="btn">Answer4</button>
         </div>
     </div>
-<section id="section">
-    <h1>Halloweenie Quiz</h1>
-<p>Test your Boo's and Ghouls with this timed quiz!</p>
-<button type="button" class="btn btn-primary" id='startBtn'>Start Quiz</button>
-</section>
+    <form>
+        <div id="form-group" class='hide'>
+          <label id="formGroupExampleInput">Your Score</label>
+          <input type="text" class="form-control" id="user-score" placeholder="000">
+          <label for="formGroupExampleInput2">Another label</label>
+          <input type="text" class="form-control" id="log-score" placeholder="Name here">
+          </div>
+      </form>
 
     <script src ="script.js"></script>
 </body>
