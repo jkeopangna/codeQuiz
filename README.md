@@ -12,5 +12,5 @@ To familiarize oneself with these types of processes, a timed coding quiz with m
 
 Link and image are provided below to preview the finished application.
 
-[link](https://jkeopangna.github.io/codeQuiz/ "Halloweenie Quiz")
+[Halloweenie Quiz](https://jkeopangna.github.io/codeQuiz/ "Halloweenie Quiz")
 ![Quiz](Assets/codeQuiz.jpg)
