@@ -10,4 +10,7 @@ To familiarize oneself with these types of processes, a timed coding quiz with m
     2. Multiple choice questions that if answered incorrectly, deducts time from the timer countdown
     3. Submit and track scores using local storage
 
-Links are provided below to preview the finished application.
+Link and image are provided below to preview the finished application.
+
+[link](https://jkeopangna.github.io/codeQuiz/ "Halloweenie Quiz")
+![Quiz](Assets/codeQuiz.jpg)
