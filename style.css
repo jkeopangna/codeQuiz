@@ -1,51 +1,76 @@
 body {
-    background: rgb(226, 149, 5);
-    text-align: center;
-    margin-top: 200px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: rgb(226, 149, 5);
+  text-align: center;
+  margin-top: 200px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#score-container {
+  text-align: center;
+  background-color: white;
+  border: solid black 2px;
+  padding: 20px;
+}
+
+.form-control {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-content: center;
+}
+
+#saveScore {
+  background: black;
+  border: black;
+  margin-top: 10px;
+}
+
+#playAgain {
+  background: black;
+  border: black;
+  margin-top: 10px;
 }
 
 #question-container {
-    text-align: center;
-    background-color: white;
-    border: solid black 2px;
-    padding: 20px;
+  text-align: center;
+  background-color: white;
+  border: solid black 2px;
+  padding: 20px;
 }
 
-#timer {
-    text-align: right;
-    margin-top: auto 0px;
+#startTime {
+  text-align: right;
+  margin-top: auto 0px;
 }
 
 #question {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .btn-grid {
-    display: grid;
-    gap: 10px;
+  display: grid;
+  gap: 10px;
 }
 
 #btn {
-    border: solid black 2px;
-    border-radius: 5px;
+  border: solid black 2px;
+  border-radius: 5px;
 }
 
 #startBtn {
-    align-content: center;
-    background: black;
-    border: black;
+  align-content: center;
+  background: black;
+  border: black;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
-h1  {
-    font-weight: bolder;
+h1 {
+  font-weight: bolder;
 }
 
 p {
-font-size: 20px;
+  font-size: 20px;
 }
-

@@ -14,21 +14,23 @@
     <button type="button" class="btn btn-primary" id='startBtn'>Start Quiz</button>
     </section>
     <div id='question-container' class='hide'>
-        <h2 id="timer">60</h2>
-        <div id='question'>Question</div>
+        <h2 id="startTime"></h2>
+        <div id='question'></div>
         <div id='answer-btns' class='btn-grid'>
-            <button id="btn">Answer1</button>
-            <button id="btn">Answer2</button>
-            <button id="btn">Answer3</button>
-            <button id="btn">Answer4</button>
+            <button id="choiceBtn">Answer1</button>
+            <button id="choiceBtn">Answer2</button>
+            <button id="choiceBtn">Answer3</button>
+            <button id="choiceBtn">Answer4</button>
         </div>
     </div>
     <form>
-        <div id="form-group" class='hide'>
-          <label id="formGroupExampleInput">Your Score</label>
+        <div id="score-container" class='hide'>
+          <label id="formTitle">Your Score</label>
           <input type="text" class="form-control" id="user-score" placeholder="000">
-          <label for="formGroupExampleInput2">Another label</label>
-          <input type="text" class="form-control" id="log-score" placeholder="Name here">
+          <label id="formTitle">Enter Name</label>
+          <input type="text" class="form-control" id="username" placeholder="Name here">
+          <button type="button" class="btn btn-primary" id='saveScore'>Save Score</button>
+          <button onClick="location.href='index.html'" type="button" class="btn btn-primary" id='playAgain'>Play Again</button>
           </div>
       </form>
 
